@@ -108,8 +108,8 @@ function cursorAnimation() {
         opacity: 0
       });
       gsap.to("#video-cursor", {
-        left: dets.x - 570,
-        y: dets.y - 300,
+        left: dets.x - 500,
+        y: dets.y -160,
       });
     });
   });
